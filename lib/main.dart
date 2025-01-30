@@ -17,86 +17,24 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
             title: Text("My Dashatar App"),
           ),
-          body: ListView(
-            scrollDirection: Axis.horizontal,
+          body: Stack(
             children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.yellow,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.red,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.orange,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.teal,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.yellow,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.red,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.orange,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.teal,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.yellow,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.red,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.orange,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.teal,
-                    child: Image.asset('images/flutter_dashatar.png'),
-                  ),
-                ],
-              )
+              Container(
+                height: 100.0,
+                width: 100.0,
+                color: Colors.yellow,
+                child: Image.asset('images/flutter_dashatar.png'),
+              ),
+              Positioned(
+                left: 10.22,
+                top: 30,
+                child: Container(
+                  height: 50.0,
+                  width: 50.0,
+                  color: Colors.red,
+                  child: Image.asset('images/flutter_dashatar.png'),
+                ),
+              ),
             ],
           )),
     );
