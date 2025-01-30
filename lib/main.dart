@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
             title: Text("My Dashatar App"),
           ),
-          body: Column(
+          body: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 height: 100.0,
