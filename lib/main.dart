@@ -17,34 +17,86 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
             title: Text("My Dashatar App"),
           ),
-          body: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+          body: ListView(
+            scrollDirection: Axis.horizontal,
             children: [
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.yellow,
-                child: Image.asset('images/flutter_dashatar.png'),
-              ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.red,
-                child: Image.asset('images/flutter_dashatar.png'),
-              ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.orange,
-                child: Image.asset('images/flutter_dashatar.png'),
-              ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.teal,
-                child: Image.asset('images/flutter_dashatar.png'),
-              ),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.yellow,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.red,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.orange,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.teal,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.yellow,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.red,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.orange,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.teal,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.yellow,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.red,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.orange,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                  Container(
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.teal,
+                    child: Image.asset('images/flutter_dashatar.png'),
+                  ),
+                ],
+              )
             ],
           )),
     );
